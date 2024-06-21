@@ -1,0 +1,12 @@
+#!/bin/zsh
+echo "Hello World" > hello.txt
+## Removes everything and inserts into file
+echo "Good Day To You" > hello.txt
+
+echo "Append to end Now!" >> hello.txt
+
+## Feed inputs into command
+wc -w hello.txt
+## This pesses the file as positional argument
+wc -w < hello.txt
+## This gives file as input to wc command instead of passing it as positional argument

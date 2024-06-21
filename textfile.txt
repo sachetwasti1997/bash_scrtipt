@@ -1,0 +1,10 @@
+Hello World!
+-------------
+POSITIONAL ARGUMENT
+swasti@192 ~ % cd IdeaProjects 
+swasti@192 IdeaProjects % cd bash_scripting 
+swasti@192 bash_scripting % vim posargu.sh
+swasti@192 bash_scripting % chmod u+x posargu.sh 
+swasti@192 bash_scripting % ./posargu.sh Sachet Wasti
+Hello Sachet Wasti
+swasti@192 bash_scripting % 
